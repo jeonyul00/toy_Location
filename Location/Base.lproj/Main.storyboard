@@ -73,7 +73,52 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HAQ-Re-HCu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1494" y="5"/>
+            <point key="canvasLocation" x="1485" y="-356"/>
+        </scene>
+        <!--Search Results Table View Controller-->
+        <scene sceneID="Xlt-wJ-jZa">
+            <objects>
+                <tableViewController storyboardIdentifier="SearchResultsTableViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="T9A-5X-jts" customClass="SearchResultsTableViewController" customModule="Location" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="fXh-uJ-ofP">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="ResultsCell" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="ResultsCell" id="n7T-0v-gL6" customClass="ResultsCell" customModule="Location" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="50" width="393" height="60.666667938232422"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="n7T-0v-gL6" id="lbe-gb-oeM">
+                                    <rect key="frame" x="0.0" y="0.0" width="393" height="60.666667938232422"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rcg-NC-tSb">
+                                            <rect key="frame" x="20" y="20" width="353" height="20.666666666666671"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstAttribute="trailing" secondItem="Rcg-NC-tSb" secondAttribute="trailing" constant="20" id="FNO-Uy-OZo"/>
+                                        <constraint firstAttribute="bottom" secondItem="Rcg-NC-tSb" secondAttribute="bottom" constant="20" id="Jt5-4D-sxV"/>
+                                        <constraint firstItem="Rcg-NC-tSb" firstAttribute="top" secondItem="lbe-gb-oeM" secondAttribute="top" constant="20" id="TNQ-Xy-ynH"/>
+                                        <constraint firstItem="Rcg-NC-tSb" firstAttribute="leading" secondItem="lbe-gb-oeM" secondAttribute="leading" constant="20" id="yfg-w8-ZON"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="title" destination="Rcg-NC-tSb" id="kDB-dj-Pye"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="T9A-5X-jts" id="bil-jw-xnD"/>
+                            <outlet property="delegate" destination="T9A-5X-jts" id="Xd0-fi-p8l"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DLd-s1-N2M" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1485" y="358"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="CrA-i3-d25">

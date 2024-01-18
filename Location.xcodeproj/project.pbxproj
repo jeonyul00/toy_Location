@@ -15,6 +15,8 @@
 		AB9A25B92B58B38000F7320B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB9A25B72B58B38000F7320B /* LaunchScreen.storyboard */; };
 		AB9A25C12B58B5C200F7320B /* PinLandmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9A25C02B58B5C200F7320B /* PinLandmark.swift */; };
 		AB9A25C32B58C14C00F7320B /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9A25C22B58C14C00F7320B /* DetailViewController.swift */; };
+		AB9A25C52B58CC2200F7320B /* SearchResultsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9A25C42B58CC2200F7320B /* SearchResultsTableViewController.swift */; };
+		AB9A25C72B58D6EB00F7320B /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9A25C62B58D6EB00F7320B /* LocationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,9 @@
 		AB9A25BA2B58B38000F7320B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AB9A25C02B58B5C200F7320B /* PinLandmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinLandmark.swift; sourceTree = "<group>"; };
 		AB9A25C22B58C14C00F7320B /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		AB9A25C42B58CC2200F7320B /* SearchResultsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsTableViewController.swift; sourceTree = "<group>"; };
+		AB9A25C62B58D6EB00F7320B /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		AB9A25C82B58F21000F7320B /* Korea.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Korea.gpx; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,8 +67,11 @@
 			children = (
 				AB9A25AC2B58B37F00F7320B /* AppDelegate.swift */,
 				AB9A25AE2B58B37F00F7320B /* SceneDelegate.swift */,
+				AB9A25C82B58F21000F7320B /* Korea.gpx */,
 				AB9A25B02B58B37F00F7320B /* MainViewController.swift */,
 				AB9A25C22B58C14C00F7320B /* DetailViewController.swift */,
+				AB9A25C42B58CC2200F7320B /* SearchResultsTableViewController.swift */,
+				AB9A25C62B58D6EB00F7320B /* LocationManager.swift */,
 				AB9A25C02B58B5C200F7320B /* PinLandmark.swift */,
 				AB9A25B22B58B37F00F7320B /* Main.storyboard */,
 				AB9A25B52B58B38000F7320B /* Assets.xcassets */,
@@ -146,6 +154,8 @@
 			files = (
 				AB9A25B12B58B37F00F7320B /* MainViewController.swift in Sources */,
 				AB9A25C12B58B5C200F7320B /* PinLandmark.swift in Sources */,
+				AB9A25C52B58CC2200F7320B /* SearchResultsTableViewController.swift in Sources */,
+				AB9A25C72B58D6EB00F7320B /* LocationManager.swift in Sources */,
 				AB9A25C32B58C14C00F7320B /* DetailViewController.swift in Sources */,
 				AB9A25AD2B58B37F00F7320B /* AppDelegate.swift in Sources */,
 				AB9A25AF2B58B37F00F7320B /* SceneDelegate.swift in Sources */,
