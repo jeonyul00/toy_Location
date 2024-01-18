@@ -10,7 +10,7 @@ import WebKit
 
 class DetailViewController: UIViewController {
     
-    @IBOutlet weak var webView: WKWebView!    
+    @IBOutlet weak var webView: WKWebView!
     var url:URL?
     
     override func viewDidLoad() {
